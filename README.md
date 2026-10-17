@@ -1,6 +1,6 @@
 # tidebot releases
 
-Download page for [tidebot](https://github.com/Zhengmingming1/tidebot), a small local scheduler for Claude Code tasks. The source repository is private for now; this repo only holds the release files, the release notes and a signed update manifest. There is no source code here.
+Download page for tidebot, a small local scheduler for Claude Code tasks. The source repository is private for now; this repo only holds the release files, the release notes and a signed update manifest. There is no source code here.
 
 ## Download
 
