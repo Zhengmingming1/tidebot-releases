@@ -1,6 +1,8 @@
 # tidebot releases
 
-Download page for tidebot, a small local scheduler for Claude Code tasks. The source repository is private for now; this repo only holds the release files, the release notes and a signed update manifest. There is no source code here.
+Download page and update channel for tidebot, a small local scheduler for Claude Code tasks. This repo only holds the release files, the release notes and the signed update manifest (`latest.json`) that installed copies check.
+
+**Source code:** [github.com/Zhengmingming1/tidebot](https://github.com/Zhengmingming1/tidebot). It's open source under the [GNU AGPL-3.0-only](https://github.com/Zhengmingming1/tidebot/blob/main/LICENSE). Issues, PRs and security reports ([SECURITY.md](https://github.com/Zhengmingming1/tidebot/blob/main/SECURITY.md)) go there.
 
 ## Download
 
@@ -15,7 +17,7 @@ Every release has `SHA256SUMS`. Check a file with `sha256sum -c --ignore-missing
 
 ## Updates
 
-tidebot checks `latest.json` here about once a day (you can turn that off in Settings → About). The manifest is signed with an ed25519 key whose public half is built into tidebot, and every download is checked against the sha256 in the manifest before anything is replaced. Nothing is sent besides the plain HTTPS download; there is no telemetry.
+tidebot checks `latest.json` here about once a day (you can turn that off in Settings → About). The manifest is signed with an ed25519 key whose public half is built into tidebot, and every download is checked against the sha256 in the manifest before anything is replaced. Nothing is sent besides the plain HTTPS download; there is no telemetry. Only the official builds from this page replace themselves. A copy you build from source just tells you a new release exists ([details](https://github.com/Zhengmingming1/tidebot/blob/main/docs/building.md)).
 
 ## About Anthropic
 
